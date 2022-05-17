@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#588157,#344e41);
+    color: #edf2f4;
+    text-shadow: 0 0 5px whitesmoke;
+}
+
+#lizImg {
+    border-radius: 500px;
+    border: 5px solid #dad7cd;
+    box-shadow: 0 0 5px whitesmoke;
+    width: 200px;
+    height: 200px;
+    
+}
+
+#bdayAge, #bdayDate {
+    background-color: #344e41;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 27px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.giftImg {
+    background-image: url("resources/giftbox.png");
+    background-size: cover;
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+#happy:hover {
+    background-image: url("resources/happy.webp");
+    background-position-x: -30px;
+}
+
+#react:hover {
+    background-image: url("resources/drooling.webp");
+    background-position-x: -140px;
+}
+
+#word:hover {
+    background-image: url("resources/amazing.webp");
+    background-position-x: -30px;
+}
+
+#badass:hover {
+    background-image: url("resources/badass.webp");
+    background-position-x: -120px;
+}
+
+#drink:hover {
+    background-image: url("resources/drink.webp");
+    background-position-x: -140px;
+}
+
+giftSection {
+    margin-top: 50px;
+}
