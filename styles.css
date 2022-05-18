@@ -41,27 +41,27 @@ h1 {
     margin: 0 auto;
 }
 
-#happy:hover {
+#happy:hover, #happy:active {
     background-image: url("resources/happy.webp");
     background-position-x: -30px;
 }
 
-#react:hover {
+#react:hover, #react:active {
     background-image: url("resources/drooling.webp");
     background-position-x: -140px;
 }
 
-#word:hover {
+#word:hover, #word:active {
     background-image: url("resources/amazing.webp");
     background-position-x: -30px;
 }
 
-#badass:hover {
+#badass:hover, #badass:active {
     background-image: url("resources/badass.webp");
     background-position-x: -120px;
 }
 
-#drink:hover {
+#drink:hover, #drink:active {
     background-image: url("resources/drink.webp");
     background-position-x: -140px;
 }
